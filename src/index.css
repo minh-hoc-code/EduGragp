@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Thiết lập font chữ mặc định và màu nền */
+body {
+  background-color: #FCFBF9; /* Màu nền kem dịu mắt theo thiết kế */
+  font-family: 'Inter', sans-serif; /* Font mặc định */
+  margin: 0;
+  padding: 0;
+  
+  /* Quan trọng: Cho phép trang web dài ra, không bị co vào giữa */
+  display: block; 
+  min-height: 100vh;
+}
+
+/* Scrollbar đẹp hơn (Tùy chọn) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
